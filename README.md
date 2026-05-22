@@ -12,7 +12,7 @@ style, utalizing pixel art with a monochrome color scheme.
 - Basically a website moodboard
 
 # サイトにアクセス (Visit the Site)
-The website will be under development for a while. It will be hosted live, and you can visit the site with [This Link]()
+The website will be under development for a while. It will be hosted live, and you can visit the site with [This Link](https://katchypotato.github.io/White-Blossom/)
 
 
 
