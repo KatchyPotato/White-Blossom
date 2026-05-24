@@ -6,7 +6,6 @@
 body {
     background-image: url(images/background-tiles.png);
     background-position: center;
-    cursor: url(images/cursor.gif);
 }
 
 /* cursor */
@@ -21,4 +20,5 @@ body {
     z-index: 9999;
     width: 100px;
     user-select: none;
+    cursor: default;
 }
