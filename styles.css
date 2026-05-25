@@ -1,10 +1,13 @@
-/*----------------- 
+/*----------- 
  setup styles
------------------*/
+------------*/
 
 /* background */
+
 body {
     background-image: url(images/background-tiles.png);
+    background-color: black;
+    background-repeat: repeat-y;
     background-position: center;
 }
 
@@ -21,4 +24,29 @@ body {
     width: 100px;
     user-select: none;
     cursor: default;
+}
+
+/* scrollbar */
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/*----------------- 
+ user-interface art
+------------*/
+
+/* health */
+
+.health-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+    position: fixed;
+}
+
+.heart {
+    width: 80px;
 }
