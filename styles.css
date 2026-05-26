@@ -27,6 +27,7 @@ body {
 }
 
 /* scrollbar */
+
 html {
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -48,5 +49,15 @@ html {
 }
 
 .heart {
-    width: 80px;
+    width: 70px;
 }
+
+/* mana */
+
+.orb {
+    right: 30px;
+    padding: 30px;
+    position: fixed;
+    width: 100px;
+}
+
