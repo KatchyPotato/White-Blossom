@@ -13,6 +13,13 @@ body {
     font-family: "DotGothic16", sans-serif;
 }
 
+::selection {
+    color: black;
+}
+
+.h1 {
+    background-color: blueviolet;
+}
 /* cursor */
 
 * {
@@ -61,6 +68,7 @@ html {
 .heart {
     width: 100px;
     image-rendering: pixelated;
+    user-select: none;
 }
 
 /* mana */
@@ -78,6 +86,7 @@ html {
 .orb {
     width: 100px;
     image-rendering: pixelated;
+    user-select: none;
 }
 
 /* avatar */
@@ -85,6 +94,7 @@ html {
 .avatar {
     width: 300px;
     image-rendering: pixelated;
+    user-select: none;
 }
 
 .avatar-container {
@@ -106,6 +116,7 @@ html {
 .weapons {
     width: 300px;
     image-rendering: pixelated;
+    user-select: none;
 }
 
 .weapons-container {
