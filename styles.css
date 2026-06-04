@@ -14,6 +14,10 @@ body {
     text-shadow: 0 0 20px white;
 }
 
+img {
+    user-select: none;
+}
+
 ::selection {
     color: black;
     background-color: white;
@@ -67,7 +71,6 @@ html {
 .heart {
     width: 100px;
     image-rendering: pixelated;
-    user-select: none;
 }
 
 /* mana */
@@ -85,7 +88,6 @@ html {
 .orb {
     width: 100px;
     image-rendering: pixelated;
-    user-select: none;
 }
 
 /* avatar */
@@ -93,7 +95,6 @@ html {
 .avatar {
     width: 300px;
     image-rendering: pixelated;
-    user-select: none;
 }
 
 .avatar-container {
@@ -110,15 +111,14 @@ html {
     padding-left: 60px;
 }
 
-/* weapons */
+/* gear */
 
-.weapons {
+.gear {
     width: 300px;
     image-rendering: pixelated;
-    user-select: none;
 }
 
-.weapons-container {
+.gear-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -128,7 +128,7 @@ html {
     bottom: 0;
 }
 
-.weapons-container h1 {
+.gear-container h1 {
     padding-left: 190px;
 }
 
@@ -138,7 +138,7 @@ html {
 
 /* welcome section styles */
 
-.welcome-container {
+.welcome-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,16 +151,53 @@ html {
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
 }
 
-.welcome-container img {
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.welcome-text img {
     width: 70px;
     image-rendering: pixelated;
 }
+
+/* add classes to all images that are hoverable, brighten images (all white?) for hover */
+
+
+/* weapons styles */
+
+.weapons-container h1 {
+    background-color: black;
+    border: 4px solid white;
+    outline: 4px solid white;
+    outline-offset: -13px;
+    padding: 25px;
+    width: fit-content;
+    text-align: center;
+}
+
+.weapons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weapons-container img {
+    image-rendering: pixelated;
+    width: 90px;
+    padding-top: 150px;
+}
+
+.push-right {
+    transform: translateX(200px);
+}
+
 
 
 
