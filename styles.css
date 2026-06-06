@@ -6,10 +6,9 @@
 
 body {
     background-color: black;
-    background-repeat: repeat-y;
-    background-position: center;
     color: white;
     font-family: "DotGothic16", sans-serif;
+    margin: 0;
 }
 
 img {
