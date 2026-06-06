@@ -9,6 +9,7 @@ body {
     color: white;
     font-family: "DotGothic16", sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 img {
@@ -36,11 +37,25 @@ img {
     image-rendering: pixelated;
 }
 
+@media (max-width: 1024px) {
+    #cursor {
+        display: none;
+    }
+}
+
 /* scrollbar */
 
 html {
     scrollbar-width: none;
     -ms-overflow-style: none;
+}
+
+h1 {
+    font-size: clamp(15px, 3vw, 30px);
+}
+
+h2 {
+    font-size: clamp(10px, 3vw, 20px);
 }
 
 /*----------------- 
@@ -66,7 +81,7 @@ html {
 }
 
 .heart {
-    width: 100px;
+    width: clamp(50px, 10vw, 100px);
     image-rendering: pixelated;
 }
 
@@ -83,14 +98,14 @@ html {
 }
 
 .orb {
-    width: 100px;
+    width: clamp(50px, 10vw, 100px);
     image-rendering: pixelated;
 }
 
 /* avatar */
 
 .avatar {
-    width: 300px;
+    width: clamp(100px, 25vw, 300px);
     image-rendering: pixelated;
 }
 
@@ -105,13 +120,13 @@ html {
 }
 
 .avatar-container h1 {
-    padding-left: 60px;
+    margin-left: 20%;
 }
 
 /* gear */
 
 .gear {
-    width: 300px;
+    width: clamp(100px, 20vw, 300px);
     image-rendering: pixelated;
 }
 
@@ -126,7 +141,7 @@ html {
 }
 
 .gear-container h1 {
-    padding-left: 190px;
+    margin-left: 60%;
 }
 
 /*--------------------- 
@@ -148,6 +163,7 @@ html {
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 10px;
     
 }
 
@@ -159,12 +175,9 @@ html {
 }
 
 .welcome-text img {
-    width: 70px;
+    width: clamp(35px, 10vw, 70px);
     image-rendering: pixelated;
 }
-
-/* add classes to all images that are hoverable, brighten images (all white?) for hover */
-
 
 /* weapons styles */
 
@@ -192,9 +205,10 @@ html {
 
 .weapons-container img {
     image-rendering: pixelated;
-    width: 300px;
-    height: 300px;
+    width: clamp(150px, 20vw, 300px);
+    height: clamp(150px, 20vw, 300px);
     object-fit: contain;
+    width: fit-content;
 }
 
 .weapons-container img:hover {
@@ -202,11 +216,11 @@ html {
 }
 
 .push-right {
-    transform: translateX(200px);
+    margin-left: 20%;
 }
 
 .push-left {
-    transform: translateX(-200px);
+    margin-right: 20%
 }
 
 
