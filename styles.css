@@ -238,6 +238,7 @@ h2 {
     width: clamp(50px, 10vw, 100px);
     height: clamp(50px, 10vw, 100px);
     width: fit-content;
+    object-fit: contain;
 }
 
 .potion {
