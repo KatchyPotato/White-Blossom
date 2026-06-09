@@ -181,14 +181,14 @@ h2 {
 
 /* weapons styles */
 
-.weapons-container h1 {
+.weapons-container h1, .potions-container h1 {
     background-color: black;
     border: 4px solid white;
     outline: 4px solid white;
     outline-offset: -13px;
     padding: 25px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: fit-content;
     text-align: center;
     margin-bottom: 10px;
@@ -222,6 +222,46 @@ h2 {
 .push-left {
     margin-right: 20%
 }
+
+/* potions styles */
+
+.potions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.potions-container img {
+    image-rendering: pixelated;
+    width: clamp(50px, 10vw, 100px);
+    height: clamp(50px, 10vw, 100px);
+    width: fit-content;
+}
+
+.potion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.potions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.potions-container img:hover {
+    filter: brightness(0) invert(1);
+}
+
+
 
 
 
