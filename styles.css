@@ -251,6 +251,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    text-wrap: nowrap;
     gap: 50px;
     margin-left: 200px;
     margin-right: 200px;
