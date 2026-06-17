@@ -160,9 +160,9 @@ h2 {
     outline: 4px solid white;
     outline-offset: -13px;
     width: fit-content;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 10px;
     
 }
@@ -181,7 +181,7 @@ h2 {
 
 /* weapons styles */
 
-.weapons-container h1, .potions-container h1 {
+.weapons-container h1, .potions-container h1, .skill-tree-container h1 {
     background-color: black;
     border: 4px solid white;
     outline: 4px solid white;
@@ -259,6 +259,23 @@ h2 {
 
 .potions-container img:hover {
     filter: brightness(0) invert(1);
+}
+
+/* skill tree styles */
+
+.skill-tree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.skill-tree {
+    image-rendering: pixelated;
+    width: clamp(300px, 50vw, 600px);
+    height: auto;
+    display: block;
 }
 
 
