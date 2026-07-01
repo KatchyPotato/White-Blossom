@@ -304,6 +304,24 @@ h2 {
     object-fit: contain;
 }
 
+/* tile set styles */
+
+.tile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.tile-container img {
+    image-rendering: pixelated;
+    height: clamp(250px, 40vw, 500px);
+    width: clamp(250px, 40vw, 500px);
+    object-fit: contain;
+}
+
 
 
 
