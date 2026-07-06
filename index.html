@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="top">
     <!-- animated cusor-->
     <img src="images/cursor.gif" id="cursor">
 
@@ -155,7 +155,7 @@
     <!-- skill tree section -->
     <div class="skill-tree-container">
         <h1 class="section-header">スキルツリー</h1>
-        <img src="images/skill-tree.png" class="skill-tree">
+        <img src="images/skill-tree.png" class="skill-tree" alt="skill tree">
     </div>
 
     <!-- characters section -->
@@ -164,24 +164,32 @@
         
         <div class="character">
             <h2>ヘカテ</h2>
-            <img src="images/hectate.png">
+            <img src="images/hectate.png" alt="hectate">
         </div>
 
         <div class="character">
             <h2>リンボ</h2>
-            <img src="images/limbo.png">
+            <img src="images/limbo.png" alt="limbo">
         </div>
             
         <div class="character">
             <h2>グーリングス</h2>
-            <img src="images/ghoulings.png">
+            <img src="images/ghoulings.png" alt="ghoulings">
         </div>
     </div>
 
     <!-- tile set section -->
     <div class="tile-container">
         <h1 class="section-header">タイルセット</h1>
-        <img src="images/tile-set.png">
+        <img src="images/tile-set.png" alt="tile set">
+    </div>
+
+    <!-- top top button -->
+    <div class="to-top-container">
+        <button class="to-top-text hover" onclick="location.href='#top'">
+            <img src="images/up-arrow.png" alt="up arrow">
+            <h1>トップへ</h1>
+        </button>
     </div>
 </body>
     <script src="script.js"></script>
