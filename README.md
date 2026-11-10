@@ -1,7 +1,7 @@
 # ホワイトブロッサム (White Blossom)
 White blossom is the name for a video game idea I created. While I don't intend to create that game anytime soon, this website is a demonstration of
-the mood and vibe of the game. I'm focusing on apperance, mood, and aesthetics rather than functionality. The website is set in a video game like
-style, utalizing pixel art with a monochrome color scheme.
+the mood and vibe of the game. I'm focusing on appearance, mood, and aesthetics rather than functionality. The website is set in a video game like
+style, utilizing pixel art with a monochrome color scheme.
 
 
 # 特徴 (Features)
